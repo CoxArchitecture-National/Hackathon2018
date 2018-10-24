@@ -1,0 +1,209 @@
+Z _Zoom
+ZE _Zoom Extents
+zea _zoom extentsall
+ZS '_Zoom  _Selected
+ZSA '_Zoom  _All _Selected
+s Snap
+O Offset
+P Pan
+M Move
+U ! _Undo
+POn ! _PointsOn
+POff ! _PointsOff
+c copy
+W Export
+COn '_CurvatureGraph
+COff '_CurvatureGraphOff
+PlugInManager ! _OptionsPage _PlugIns
+AdvancedDisplay ! _OptionsPage _AdvancedSettings
+DisplayAttrsMgr ! _OptionsPage _AdvancedSettings
+Erase ! _select _pause _delete
+3A Array
+3DO RotateView
+3F Plane
+3P Polyline
+A Arc
+AA Area
+AR Array
+BR Split
+CH Properties
+CHA Chamfer
+CO Copy
+CP Copy
+DI Distance
+DIV Divide
+E Erase
+ED EditText
+EL Ellipse
+EX Extend
+EXP Export
+EXT EXTRUDE CAP=yes
+F Fillet
+HI Make2D
+I Import
+IMP Import
+L Line
+LA Layer
+LEN ExtendByLine
+LI What
+LS What
+MA matchlayer
+ME Measure
+MI Mirror
+ORBIT RotateView
+OS OffsetSrf
+PE EditPtOn
+PL Polyline
+PO -loadscript H:\Workspaces\Rhino\scripts\Morello_Scripts\PolyOffset.rvb
+POL Polygon
+PR Options
+REC Rectangle
+REG PlanarSrf
+REV Revolve
+RO Rotate
+RPR RenderOptions
+RR Render
+SC Scale
+SCR ReadCommandFile
+SEC Contour
+SET Options
+SHA Shade
+SL Section
+SN SelName
+SPLINE InterpCrv
+SPL InterpCrv
+SU BooleanDifference
+T Text
+TO Toolbar
+TOR Torus
+TR Trim
+UNI BooleanUnion
+V RestoreView
+vP SetView World Perspective PerspectiveAngle 28
+X Explode
+2d make2d
+s2 sweep2
+a3 Arc3Pt
+al align n
+b between
+wb back
+bbox BoundingBox
+bi booleanintersection
+wbo bottom
+bord dupborder
+bs booleandifference
+bu booleanunion
+cc COPY PAUSE ENTER 0,0,0
+Ci Circle
+cpo CPlane ToObject
+cpw CPlane world Top
+d distance
+de dupedge
+edd editdim
+edge dupedge
+ee extend
+eg edge
+es ExtendTrimmedSrf
+ET EditText
+f0 fillet r 0
+fb blend
+fr front
+fs filletsrf
+g -toolbar toolbar stuart toggle ada toggle main1 toggle main2 toggle layer toggle grouping toggle standard toggle block toggle surface enter enter
+h hide
+id EvaluatePoint
+int intersect
+iso extractisoparm
+j join
+l1 onelayeron
+lc MatchLayer
+lcc changelayer
+le left
+ll properties
+lm matchlayer
+lo onelayeroff
+loo onelayeron
+lsel sellayer
+meas dividebylength
+mv move v 0,0,0
+norm normal
+oo nosnap
+OPT Options
+or orient
+pb rectangle
+pp polyline
+qs save
+r rotate
+rail Sweep1
+rrr rotate3d
+sel selnone selectlayer
+sp interpcrv
+srf EdgeSrf
+SS _RenderedViewport
+SW WIREFRAMEVIEWPORT
+UOB CPLANETOOBJECT
+UR CPLANE world RIGHT
+UW CPLANE world TOP
+vf SETVIEW world FRONT
+wl Left
+vp4 4View
+vpe Perspective
+vt SETVIEW WORLD top
+WINz -import "U:\harper-s\!stuart.dwg" Enter
+WOUTz -export "U:\harper-s\!stuart.dwg" Enter
+zw _zoom
+vr SETVIEW world right
+vb SETVIEW world back
+vse SetView World Perspective
+SO RENDERPREVIEW
+mr mirror
+per perspective
+r3d rotate3d
+ux cplanex
+ul CPLANE WORLD left
+ut CPLANE world top
+ub CPLANE world back
+scd Scale Pause 0,0,0 0.001
+vl SETVIEW world left
+vp1 MaxViewport
+scup Scale Pause 0,0,0 1000
+win -import "U:\harper-s\!stuart.3dm" Enter
+wout -export "U:\harper-s\!stuart.3dm" Enter
+SH SHOW
+scc ScreenCaptureToFile
+VCF SETVIEW CPLANE FRONT
+VCT SETVIEW CPLANE TOP
+VCL SETVIEW CPLANE FRONT
+VCAM PlaceCameraTarget
+Uvt SETVIEW WORLD top
+Uvr SETVIEW world right
+Uvb SETVIEW world back
+UvP SetView World Perspective
+Uvl SETVIEW world left
+Uvf SETVIEW world FRONT
+ih Invert _Hide
+UN _NamedCPlane
+us NamedCPlane
+cap _PlanarSrf
+s1 Sweep1
+or3 orient3pt
+or2 orient
+U3 _CPLANE 3POINT
+hc _selcrv hide
+db _dupborder
+hs _selsrf   _selpolysrf     hide
+ug _ungroup
+rt Rotate
+bm BlockManager
+uf CPLANE world front
+pa _perspectiveangle
+s7 Scale Pause 1.5
+mp -loadscript H:\Workspaces\Rhino\scripts\Material_Systems_Scripts\PipeAll.rvb
+sr -loadscript H:\Workspaces\Rhino\scripts\David_Rutten_Scripts\SequentialNaming.rvb
+xr _Insert
+axo -loadscript H:\Workspaces\Rhino\scripts\Morello_Scripts\Axonometry.rvb
+s1d _Scale1D
+cs ConnectSrf
+rp -loadscript H:\Workspaces\Rhino\scripts\David_Rutten_Scripts\RectangularPipe.rvb
+oc OffsetCrvOnSrf
+ca CreaseAngle
