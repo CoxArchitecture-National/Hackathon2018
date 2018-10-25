@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Setback Generator</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="container">
+    <div class="row">
+      <div class="one-half column" style="margin-top: 15%">
+        <h4>Setback JSON Generator</h4>
+        <p>This website lets you create a JSON file using manually entered setback limits.</p>
+      </div>
+    </div>
+
+    <!-- Setback Input Forms -->
+
+    <div class="docs-section" id="forms">
+      <h4 class="docs-header">Input Setback Values</h6>
+      <div class="docs-example docs-example-forms">
+        <form>
+          <div class="row">
+            <div class="four columns">
+              <label for="major-roads">Major Road Setback (m)</label>
+              <input class="u-full-width" type="number" placeholder="10.5" id="major-road-setback">
+            </div>
+            <div class="four columns">
+              <label for="major-roads">Secondary Road Setback (m)</label>
+              <input class="u-full-width" type="number" placeholder="5.5" id="secondary-road-setback">
+            </div>
+            <div class="four columns">
+              <label for="major-roads">Adjacent Boundary Setback (m)</label>
+              <input class="u-full-width" type="number" placeholder="1.5" id="adjacent-road-setback">
+            </div>
+          </div>
+          <div class="row">
+              <div class="four columns">
+                <label for="major-roads">Building Height Limit (m)</label>
+                <input class="u-full-width" type="number" placeholder="50.5" id="building-height-limit">
+              </div>
+          </div> 
+        </form>
+      </div>
+
+      <!-- Generate JSON -->
+
+      <div class="row">
+        <div class="four columns">
+            <a class="button button-primary" href="#">GENERATE JSON</a>
+        </div>
+      </div>
+
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
