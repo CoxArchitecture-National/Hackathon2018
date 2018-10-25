@@ -35,47 +35,230 @@
   <div class="container">
     <div class="row">
       <div class="one-half column" style="margin-top: 15%">
-        <h4>Setback JSON Generator</h4>
-        <p>This website lets you create a JSON file using manually entered setback limits.</p>
+
+        <h2>Setback JSON Generator</h2>
+        <p>This website lets you create .JSON values as copy-able text using manually entered setback limits.</p>
+        <p>Currently limited to three setback intervals per boundary type.</p>
+        
+        <p><a href="https://www.planningportal.nsw.gov.au/understanding-planning/assessment-systems/complying-development/" target="_blank">NSW Building Codes</a></p>
+        <p><a href="https://www.sa.gov.au/topics/planning-and-property/land-and-property-development/building-rules-regulations-and-information" target="_blank">SA Building Codes </a></p>
+        <p><a href="http://www.vba.vic.gov.au/building-regulations-2018" target="_blank">VIC Building Codes </a></p>
       </div>
     </div>
 
     <!-- Setback Input Forms -->
 
     <div class="docs-section" id="forms">
-      <h4 class="docs-header">Input Setback Values</h6>
+      <h2 class="docs-header">Major Road Setbacks</h2>
+      <p>Note: The 'Bottom Limit (m)' input must the be the same as the previous interval's 'Top Limit (m)'.</p>
       <div class="docs-example docs-example-forms">
         <form>
+          <h4>First Interval</h4>
           <div class="row">
             <div class="four columns">
-              <label for="major-roads">Major Road Setback (m)</label>
-              <input class="u-full-width" type="number" placeholder="10.5" id="major-road-setback">
+              <label for="major road">Setback (default 0m)</label>
+              <input class="u-full-width" type="number" placeholder="0" id="setback">
             </div>
             <div class="four columns">
-              <label for="major-roads">Secondary Road Setback (m)</label>
-              <input class="u-full-width" type="number" placeholder="5.5" id="secondary-road-setback">
+              <label for="major road">Bottom Limit (default 0m)</label>
+              <input class="u-full-width" type="number" placeholder="0" id="min">
             </div>
             <div class="four columns">
-              <label for="major-roads">Adjacent Boundary Setback (m)</label>
-              <input class="u-full-width" type="number" placeholder="1.5" id="adjacent-road-setback">
+              <label for="major road">Top Limit (m)</label>
+              <input class="u-full-width" type="number" placeholder="10" id="max">
+            </div>
+          </div> 
+          <h4>Second Interval</h4>
+          <div class="row">
+            <div class="four columns">
+              <label for="major road">Setback (m)</label>
+              <input class="u-full-width" type="number" placeholder="5" id="setback">
+            </div>
+            <div class="four columns">
+              <label for="major road">Bottom Limit (m)</label>
+              <input class="u-full-width" type="number" placeholder="10" id="min">
+            </div>
+            <div class="four columns">
+              <label for="major road">Top Limit (m)</label>
+              <input class="u-full-width" type="number" placeholder="20" id="max">
             </div>
           </div>
+          <h4>Third Interval</h4>
           <div class="row">
-              <div class="four columns">
-                <label for="major-roads">Building Height Limit (m)</label>
-                <input class="u-full-width" type="number" placeholder="50.5" id="building-height-limit">
-              </div>
+            <div class="four columns">
+              <label for="major road">Setback (m)</label>
+              <input class="u-full-width" type="number" placeholder="15" id="setback">
+            </div>
+            <div class="four columns">
+              <label for="major road">Bottom Limit (m)</label>
+              <input class="u-full-width" type="number" placeholder="20" id="min">
+            </div>
+            <div class="four columns">
+              <label for="major road">Top Limit (m)</label>
+              <input class="u-full-width" type="number" placeholder="50" id="max">
+            </div>
+          </div>
+
+          <br></br>
+
+          <h2 class="docs-header">Secondary Road Setbacks</h2>
+          <p>Note: The 'Bottom Limit (m)' input must the be the same as the previous interval's 'Top Limit (m)'.</p>
+          <h4>First Interval</h4>
+          <div class="row">
+            <div class="four columns">
+              <label for="secondary road">Setback (default 0m)</label>
+              <input class="u-full-width" type="number" placeholder="0" id="setback">
+            </div>
+            <div class="four columns">
+              <label for="secondary road">Bottom Limit (default 0m)</label>
+              <input class="u-full-width" type="number" placeholder="0" id="min">
+            </div>
+            <div class="four columns">
+              <label for="secondary road">Top Limit (m)</label>
+              <input class="u-full-width" type="number" placeholder="10" id="max">
+            </div>
           </div> 
+          <h4>Second Interval</h4>
+          <div class="row">
+            <div class="four columns">
+              <label for="secondary road">Setback (m)</label>
+              <input class="u-full-width" type="number" placeholder="5" id="setback">
+            </div>
+            <div class="four columns">
+              <label for="secondary road">Bottom Limit (m)</label>
+              <input class="u-full-width" type="number" placeholder="10" id="min">
+            </div>
+            <div class="four columns">
+              <label for="secondary road">Top Limit (m)</label>
+              <input class="u-full-width" type="number" placeholder="20" id="max">
+            </div>
+          </div>
+          <h4>Third Interval</h4>
+          <div class="row">
+            <div class="four columns">
+              <label for="secondary road">Setback (m)</label>
+              <input class="u-full-width" type="number" placeholder="15" id="setback">
+            </div>
+            <div class="four columns">
+              <label for="secondary road">Bottom Limit (m)</label>
+              <input class="u-full-width" type="number" placeholder="20" id="min">
+            </div>
+            <div class="four columns">
+              <label for="secondary road">Top Limit (m)</label>
+              <input class="u-full-width" type="number" placeholder="50" id="max">
+            </div>
+          </div>
+
+          <br></br>
+
+          <h2 class="docs-header">Adjacent Boundary Setbacks</h2>
+          <p>Note: The 'Bottom Limit (m)' input must the be the same as the previous interval's 'Top Limit (m)'.</p>
+          <h4>First Interval</h4>
+          <div class="row">
+            <div class="four columns">
+              <label for="adjacent boundary">Setback (default 0m)</label>
+              <input class="u-full-width" type="number" placeholder="0" id="setback">
+            </div>
+            <div class="four columns">
+              <label for="adjacent boundary">Bottom Limit (default 0m)</label>
+              <input class="u-full-width" type="number" placeholder="0" id="min">
+            </div>
+            <div class="four columns">
+              <label for="adjacent boundary">Top Limit (m)</label>
+              <input class="u-full-width" type="number" placeholder="10" id="max">
+            </div>
+          </div> 
+          <h4>Second Interval</h4>
+          <div class="row">
+            <div class="four columns">
+              <label for="adjacent boundary">Setback (m)</label>
+              <input class="u-full-width" type="number" placeholder="5" id="setback">
+            </div>
+            <div class="four columns">
+              <label for="adjacent boundary">Bottom Limit (m)</label>
+              <input class="u-full-width" type="number" placeholder="10" id="min">
+            </div>
+            <div class="four columns">
+              <label for="adjacent boundary">Top Limit (m)</label>
+              <input class="u-full-width" type="number" placeholder="20" id="max">
+            </div>
+          </div>
+          <h4>Third Interval</h4>
+          <div class="row">
+            <div class="four columns">
+              <label for="adjacent boundary">Setback (m)</label>
+              <input class="u-full-width" type="number" placeholder="15" id="setback">
+            </div>
+            <div class="four columns">
+              <label for="adjacent boundary">Bottom Limit (m)</label>
+              <input class="u-full-width" type="number" placeholder="20" id="min">
+            </div>
+            <div class="four columns">
+              <label for="adjacent boundary">Top Limit (m)</label>
+              <input class="u-full-width" type="number" placeholder="50" id="max">
+            </div>
+          </div>
         </form>
       </div>
 
       <!-- Generate JSON -->
 
       <div class="row">
-        <div class="four columns">
-            <a class="button button-primary" href="#">GENERATE JSON</a>
-        </div>
+        <a class="button button-primary" onclick="showMessage()" value="submit">GENERATE JSON AS TEXT</a>
       </div>
+
+      <br></br>
+
+      // produces:
+
+      {
+        "major road": [
+          {
+            "min": 0,
+            "max": 10,
+            "setback": 0
+          },
+      {
+            "min": 10,
+            "max": 20,
+            "setback": 5
+          },
+          {
+            "min": 20,
+            "max": 50,
+            "setback": 10
+          }
+        ],
+        "secondary road": [
+          {
+            "min": 0,
+            "max": 15,
+            "setback": 3
+          },
+          {
+            "min": 15,
+            "max": 50,
+            "setback": 6
+          }
+        ],
+        "adjacent boundary": [
+          {
+            "min": 0,
+            "max": 15,
+            "setback": 0
+          },
+      {
+            "min": 15,
+            "max": 20,
+            "setback": 0
+          },
+      {
+            "min": 20,
+            "max": 50,
+            "setback": 0
+          }
+        ]
+      }
 
   </div>
 
