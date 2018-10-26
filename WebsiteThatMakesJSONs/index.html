@@ -34,7 +34,12 @@
 
   <div class="container">
     <div class="row">
-      <div class="one-half column" style="margin-top: 15%">
+      <div class="twelve columns" style="margin-top: 5%; display: flex; justify-content: center;">
+        <img src="images/cox_logo_mono.jpg" alt="header-logo" width="25%" height="25%" align="middle"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="one-half column" style="margin-top: 5%">
 
         <h2>Setback JSON Generator</h2>
         <p>This website lets you create .JSON values as copy-able text using manually entered setback limits.</p>
@@ -204,61 +209,74 @@
       <!-- Generate JSON -->
 
       <div class="row">
-        <a class="button button-primary" onclick="showMessage()" value="submit">GENERATE JSON AS TEXT</a>
+        <a class="button button-primary" onclick="JSONTextOutput()" value="submit">GENERATE JSON AS TEXT</a>
       </div>
 
+      <pre><code>
+{
+  "major road": [
+    {
+      "min": 0,
+      "max": 10,
+      "setback": 0
+    },
+{
+      "min": 10,
+      "max": 20,
+      "setback": 5
+    },
+    {
+      "min": 20,
+      "max": 50,
+      "setback": 10
+    }
+  ],
+  "secondary road": [
+    {
+      "min": 0,
+      "max": 15,
+      "setback": 3
+    },
+    {
+      "min": 15,
+      "max": 50,U
+      "setback": 6
+    }
+  ],
+  "adjacent boundary": [
+    {
+      "min": 0,
+      "max": 15,
+      "setback": 0
+    },
+{
+      "min": 15,
+      "max": 20,
+      "setback": 0
+    },
+{
+      "min": 20,
+      "max": 50,
+      "setback": 0
+    }
+  ]
+}
+      </code></pre>
+
+      <span id="result"></span>
+
+      <script>
+          function JSONTextOutput() {
+            document.getElementById("result").innerHTML = 
+              document.getElementById('fname').value + " " + 
+              document.getElementById('mname').value + " " +
+              document.getElementById('lname').value;
+          }
+       </script>
+
+       <!--document.getElementById('').value-->
+
       <br></br>
-
-      // produces:
-
-      {
-        "major road": [
-          {
-            "min": 0,
-            "max": 10,
-            "setback": 0
-          },
-      {
-            "min": 10,
-            "max": 20,
-            "setback": 5
-          },
-          {
-            "min": 20,
-            "max": 50,
-            "setback": 10
-          }
-        ],
-        "secondary road": [
-          {
-            "min": 0,
-            "max": 15,
-            "setback": 3
-          },
-          {
-            "min": 15,
-            "max": 50,
-            "setback": 6
-          }
-        ],
-        "adjacent boundary": [
-          {
-            "min": 0,
-            "max": 15,
-            "setback": 0
-          },
-      {
-            "min": 15,
-            "max": 20,
-            "setback": 0
-          },
-      {
-            "min": 20,
-            "max": 50,
-            "setback": 0
-          }
-        ]
-      }
 
   </div>
 
