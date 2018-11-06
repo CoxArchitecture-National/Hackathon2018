@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Grasshopper 1.0.0, Redback Plugin. SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+width="841.0mm" height="594.0mm" viewBox="0 0 841.0 594.0" xml:space="preserve">
+<style type="text/css">
+.Ground{
+stroke:black;
+stroke-width: 2mm;
+fill:none;
+}
+.Ground-Fill{
+stroke:none;
+fill:grey;
+}
+.Outline{
+stroke:black;
+stroke-width: 0.2mm;
+fill:none;
+}
+.RL{
+stroke:black;
+stroke-width: 0.2mm;
+fill:none;
+}
+
+
+</style>
+<polyline points="-1519.66698525,625.029695657 478.333014746,625.029695657 666.152268861,625.029695657 2664.15226886,625.029695657 2664.15226886,405.029695657 666.152268861,405.029695657 478.333014746,405.029695657 -1519.66698525,405.029695657 -1519.66698525,625.029695657" class="Ground-Fill"/>
+</svg>

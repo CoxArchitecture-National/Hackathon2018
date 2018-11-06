@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Grasshopper 1.0.0, Redback Plugin. SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+width="841.0mm" height="594.0mm" viewBox="0 0 841.0 594.0" xml:space="preserve">
+<style type="text/css">
+.legendtext{
+fill:Black;
+}
+</style>
+<text class="legendtext" transform="matrix(-0.0 -0.0 1.0 -0.0 120.0 554.0)">Comm</text>
+<text class="legendtext" transform="matrix(-0.0 -0.0 1.0 -0.0 120.0 534.0)">Resi</text>
+</svg>

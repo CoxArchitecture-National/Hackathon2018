@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Grasshopper 1.0.0, Redback Plugin. SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+width="841.0mm" height="594.0mm" viewBox="0 0 841.0 594.0" xml:space="preserve">
+<style type="text/css">
+.Resi{
+fill: blue;
+}
+.Comm{
+fill: red;
+}
+</style>
+<polygon points="503.670312055,156.241760165 503.670312055,174.817049644 418.346621331,174.817049644 418.346621331,156.241760165" class="Resi-Stroke"/>
+<polyline points="418.346621331,186.817049644 418.346621331,174.817049644 503.670312055,174.817049644 503.670312055,186.817049644 418.346621331,186.817049644" class="Resi-Stroke"/>
+<polygon points="418.346621331,198.817049644 418.346621331,186.817049644 503.670312055,186.817049644 503.670312055,198.817049644" class="Resi-Stroke"/>
+<polyline points="418.346621331,210.817049644 418.346621331,198.817049644 503.670312055,198.817049644 503.670312055,210.817049644 418.346621331,210.817049644" class="Resi-Stroke"/>
+<polyline points="418.346621331,222.817049644 418.346621331,210.817049644 503.670312055,210.817049644 503.670312055,222.817049644 418.346621331,222.817049644" class="Resi-Stroke"/>
+</svg>

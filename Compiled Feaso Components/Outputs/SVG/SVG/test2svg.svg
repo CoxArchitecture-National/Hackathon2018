@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Grasshopper 1.0.0, Redback Plugin. SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+width="841.0mm" height="594.0mm" viewBox="0 0 841.0 594.0" xml:space="preserve">
+<style type="text/css">
+.newclass {
+    fill: crimson;
+}
+.fill{
+stroke: red;
+stroke-width: 0.02mm;
+fill: rgb(0,0,0)
+}
+</style>
+<polygon points="581.142271995,280.757264656 721.791136677,280.757264656 721.791136677,163.549877421 581.142271995,163.549877421" class="fill"/>
+<polygon points="582.521182433,428.300681529 721.791136677,428.300681529 721.791136677,280.757264656 582.521182433,280.757264656" class="fill"/>
+</svg>

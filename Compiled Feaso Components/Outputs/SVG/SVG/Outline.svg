@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Grasshopper 1.0.0, Redback Plugin. SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+width="841.0mm" height="594.0mm" viewBox="0 0 841.0 594.0" xml:space="preserve">
+<style type="text/css">
+.Ground{
+stroke:black;
+stroke-width: 2mm;
+fill:none;
+}
+.Ground-Fill{
+stroke:none;
+fill:grey;
+}
+.Outline{
+stroke:black;
+stroke-width: 0.2mm;
+fill:none;
+}
+.RL{
+stroke:black;
+stroke-width: 0.2mm;
+fill:none;
+}
+
+
+</style>
+<polygon points="137.312632307,380.678118479 149.924355117,380.678118479 149.924355117,48.9446188622 241.713853405,112.013482245 241.713853405,380.678118479 318.054628660,380.678118479 318.054628660,223.528618369 417.339348733,223.528618369 417.339348733,380.678118479 444.766233551,380.678118479 444.766233551,405.029695657 137.312632307,405.029695657" class="Outline"/>
+<polygon points="666.152268861,352.327287570 621.954201012,352.327287570 621.954201012,92.5242168284 522.025116652,92.5242168284 522.025116652,352.327287570 478.333014746,352.327287570 478.333014746,378.678491613 478.333014746,405.029695657 666.152268861,405.029695657 666.152268861,378.678491613" class="Outline"/>
+</svg>
